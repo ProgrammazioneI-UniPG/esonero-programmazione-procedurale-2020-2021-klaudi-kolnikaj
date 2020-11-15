@@ -13,7 +13,7 @@ char chiave[128];
 int scrivi() {
   fgets(chiave, 128, stdin);
   a = strlen(chiave);
-  if (a < 8)
+  if (a < 31)
     printf("Troppo corto\n");
   else {
     printf("%s\n", chiave);
